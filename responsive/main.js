@@ -14,9 +14,9 @@ showMenu('nav-toggle','nav-menu')
 
 /*----- ANIMATE -----*/
 // OVERLAY
-gsap.to(".first", 1.5, {delay: .5, top: "-100%", ease: Expo.easeInOut});
-gsap.to(".second", 1.5, {delay: .7, top: "-100%", ease: Expo.easeInOut});
-gsap.to(".third", 1.5, {delay: .9, top: "-100%", ease: Expo.easeInOut});
+gsap.to(".first", 1.5, {delay: .2, top: "-100%", ease: Expo.easeInOut});
+gsap.to(".second", 1.5, {delay: .3, top: "-100%", ease: Expo.easeInOut});
+gsap.to(".third", 1.5, {delay: .5, top: "-100%", ease: Expo.easeInOut});
 
 // IMG
 gsap.from('.home__img', {opacity: 0, duration: 2, delay: 2, x: 60})
